@@ -50,9 +50,9 @@ if __name__ == "__main__":
                         help="root name of your dataset in train mode")
     parser.add_argument("--force_download", "-f", action="store_true",
                         help="flag of force download")
-    parser.add_argument("--n_epochs", type=int, default=300,
+    parser.add_argument("--n_epochs", type=int, default=500,
                         help="number of epochs of training")
-    parser.add_argument("--batch_size", type=int, default=32,
+    parser.add_argument("--batch_size", type=int, default=4,
                         help="size of the batches")
     parser.add_argument("--lr", type=float, default=0.0002,
                         help="adam: learning rate")
